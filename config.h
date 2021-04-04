@@ -18,6 +18,10 @@ static const char *colors[SchemeLast][2] = {
 /* -l option; if nonzero, dmenu uses vertical list with given number of lines */
 static unsigned int lines      = 0;
 
+// -h option; minimum height of amenu line
+static unsigned int lineheight = 24;
+static unsigned int min_lineheight = 8;
+
 /*
  * Characters not considered part of a word while deleting words
  * for example: " /?\"&[]"
