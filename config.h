@@ -22,6 +22,9 @@ static unsigned int lines      = 0;
 static unsigned int lineheight = 24;
 static unsigned int min_lineheight = 8;
 
+// Size of the window border
+static unsigned int border_width = 0;
+
 /*
  * Characters not considered part of a word while deleting words
  * for example: " /?\"&[]"
